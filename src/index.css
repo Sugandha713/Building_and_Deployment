@@ -1,0 +1,38 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.product-card {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(to right, #ffd700, #ffa500);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.brand-card {
+  transition: border-color 0.3s ease;
+  border: 1px solid rgba(255, 193, 7, 0.2);
+}
+
+.brand-card:hover {
+  border-color: rgba(255, 193, 7, 0.4);
+}
